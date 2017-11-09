@@ -74,7 +74,7 @@ public class DBConnection implements Connection {
                 }
                 resultSet.close();
             }
-        } catch (SQLException e1) {
+        } catch (SQLException e) {
             Logger.getLogger(DBConnection.class).error("Error getting SPID.", e1);
         } finally {
             try {
